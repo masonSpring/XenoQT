@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<script>
+
+function changeFire() {
+   var img1 = "http://placehold.it/350x150",
+       img2 = "http://placehold.it/200x200";
+   var imgElement = document.getElementById('fire');
+   
+   imgElement.src = (imgElement.src === img1)? img2 : img1;
+}
+
+</script>
+
+<img src="fireDARK.png" id="fire" onclick ="changeFire();"/>
+<img src="waterDARK.png" id="water" onclick ="changeWater();"/>
+<img src="windDARK.png" id="wind" onclick ="changeWind();"/>
+<img src="earthDARK.png" id="earth" onclick ="changeEarth();"/>
+<img src="electricDARK.png" id="electric" onclick ="changeElectric();"/>
+<img src="iceDARK.png" id="ice" onclick ="changeIce();"/>
+<img src="lightDARK.png" id="light" onclick ="changeLight();"/>
+<img src="darkDARK.png" id="dark" onclick ="changeDark();"/>
+
+</html>
