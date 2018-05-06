@@ -3,8 +3,8 @@
 <script>
 
 function changeFire() {
-   var img1 = "http://placehold.it/350x150",
-       img2 = "http://placehold.it/200x200";
+   var img1 = "https://raw.githubusercontent.com/masonSpring/XenoQT/master/fire.png",
+       img2 = "https://raw.githubusercontent.com/masonSpring/XenoQT/master/fireDARK.png";
    var imgElement = document.getElementById('fire');
    
    imgElement.src = (imgElement.src === img1)? img2 : img1;
@@ -12,7 +12,7 @@ function changeFire() {
 
 </script>
 
-<img src="fireDARK.png" id="fire" onclick ="changeFire();"/>
+<img src="https://raw.githubusercontent.com/masonSpring/XenoQT/master/fireDARK.png" id="fire" onclick ="changeFire();"/>
 <img src="waterDARK.png" id="water" onclick ="changeWater();"/>
 <img src="windDARK.png" id="wind" onclick ="changeWind();"/>
 <img src="earthDARK.png" id="earth" onclick ="changeEarth();"/>
